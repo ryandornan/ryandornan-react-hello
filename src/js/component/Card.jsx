@@ -1,16 +1,21 @@
 import React from "react";
+import Button from "./Button";
 
-const Card = () => {
+const Card = ({imageUrl, title, description, buttonlink, buttonText}) => {
     
-    return (            
-            <div className="card">
-            <img className="card-img-top" src="https://picsum.photos/200/300" alt="">
-            <div className="card-body">
-              <h5 className="card-title">"Card title"</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+    return (                    
+        <div className="card shadow p-3 mb-5 bg-body rounded" style={{width: '19rem'}}>
+          <img src={imageUrl} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">{title}</h5>
+            <p className="card-text">{description}</p>
+            <Button link = {buttonlink} text={buttonText}/>
           </div>
-    );
+
+
+        </div>
+      );
 };
 
 export default Card;
+

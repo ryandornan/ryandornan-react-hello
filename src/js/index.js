@@ -10,4 +10,4 @@ import Home from "./component/home.jsx";
 import NavBar from "./component/NavBar.jsx";
 
 //render your react application
-ReactDOM.render(<Card />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.querySelector("#app"));
