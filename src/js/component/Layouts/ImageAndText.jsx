@@ -18,7 +18,7 @@ const ImageAndText = () => {
                         guiding them through challenges and celebrating their triumphs.
                         </p>
 
-                        <p>Under Leo's tutelage, students not only hone their technical prowess but also gain 
+                        <p>Under Leo's tutelage, students not only honed their technical prowess but also gained 
                         a deeper appreciation for the art and science of coding. His legacy as a mentor and educator continues to 
                         ripple through the tech community, leaving an indelible mark on the careers of those fortunate enough to 
                         learn from him.</p>
